@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <header>
+             <img src="../../assets/img/logo_empresa.png" alt="alt"/>
+             <h3>compu space</h3>
+             <nav>
+                 <ul>
+                     <li><a href="">Categorias</a></li>
+                     <li><a href="">Quienes somos</a></li>
+                     <li><a href="">Contactos</a></li>
+                 </ul>
+             </nav>
+        </header>
+        <main>
+            <section id="banner">
+                <div class="promo">
+                    <h1>Julio Promocional</h1>
+                    <h2>Productos seleccionados con 33% de descuento</h2>
+                </div>
+                <video muted autoplay loop>
+                    <source src="../../assets/img/video1.mp4" type="video/mp4">
+                </video>
+                <div class="capa"></div>
+            </section>
+            <section id="categorias">
+                <?php
+                       $sql = "SELECT * from productos";
+                       $result = mysqli_query($conex, $sql);
+              
+                       while ($mostrar=mysqli_fetch_array($result)){
+                    ?>
+            
+                <div class="categorias">
+                       <img  src="data:image/jpg;base64,
+                       <?php echo base64_encode($mostrar['Imagen']); ?>"/><br>
+                       <?php echo $mostrar['NombreProducto'] ?><br>
+                       <?php echo $mostrar['Descripcion'] ?>
+                     <?php
+                     }   
+                ?>
+                </div>       
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    margin-top: 10px;
+    background-image: url("../../assets/img/fondo_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form, h1, h2, div{
+    width: fit-content;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: rgba(5,7,12,0.30);
+    border-radius: 5px;
+}
+#formulario_categorias{
+    width: 500px;
+    height:620px;
+}
+#formulario_productos{
+    width: 500px;
+    height: 1005px;
+}
+div{
+    background: transparent;
+}
+img{
+    margin: 30px 0 0 205px;
+    width: 110px;
+    height: 110px;
+}
+
+h1{
+    color: darkblue;
+    background: transparent;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border-style: none;
+    height: 40px;
+    width: 400px;
+}
+
+h2{
+   font-size: 15px; 
+   background: transparent;
+}
+button, .btn{
+    background-color:royalblue;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+#cancelar_categoria, #cancelar_producto{
+    background-color: coral;
+}
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun 2023, 20:14:28
+    Author     : prrue
+*/
+

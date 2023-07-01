@@ -1,0 +1,33 @@
+body{
+    height: auto;
+    margin-top: 50px;
+}
+a{
+   color: white; 
+   border-bottom: none;
+   padding: 20px 40px;
+   background-color: royalblue;
+   border-radius: 5px;
+   text-decoration: none;
+} 
+table{
+    width: 900px;
+    border-style: groove;
+}
+tr, th, td{
+    width: 200px;
+    height: 5px;
+    border-style: groove;
+}
+.img_1{
+    padding-right: 120px;
+}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 jun 2023, 14:25:38
+    Author     : prrue
+*/
+

@@ -1,0 +1,147 @@
+body{
+    font-family: cursive;
+    /*top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;*/
+}
+header{
+    /*z-index: 1;
+    position: fixed;*/
+    background: #1c1c1d;
+    top: 0;
+    left: 0;
+    /*align-items: center;
+    text-align: center;*/
+    height: 90px;
+    color: blue;
+   
+}
+.caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1350px;
+    
+}
+.logo{
+    margin-left: 4px;
+    width: 90px;
+    height: 90px;
+}
+nav{
+    padding-left: 600px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+li{
+    padding-left: 20px;
+    padding-right: 30px;
+    
+}
+
+a{
+   
+    color: red; 
+}
+#banner{
+    height: 500px;
+    position: relative;
+}
+.promo{
+    padding-top: 150px;
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+    position: relative;
+    z-index: 2;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    width: 100px;
+    display: flex;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    /*mix-blend-mode: overlay;*/
+}
+ #productos{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    align-items: center;
+    text-align: center;
+    height: 900px;
+}
+h4{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding-left: 50px;
+}
+#nosotros{
+    height: 500px;
+    background-color: lightcyan;
+    padding-top: 30px;
+}
+p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#contactos{
+    height: 300px;
+    background-color: #1c1c1d;
+    padding-top: 30px;
+}
+.a1, h5{
+    color: white;
+}
+
+/*.categorias{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 jun 2023, 23:47:46
+    Author     : prrue
+*/
+
