@@ -41,6 +41,8 @@
                 <div class="promo">
                     <h1>Julio Promocional</h1>
                     <h2>Productos seleccionados con 33% de descuento</h2>
+                    <a class="boton" href="../backend/views/lista_categorias.php?add">Categorias</a>
+                    <a class="boton" href="../backend/views/lista_productos.php?add">Productos</a>
                 </div>
                 <video muted autoplay loop>
                     <source src="../../assets/img/video1.mp4" type="video/mp4">

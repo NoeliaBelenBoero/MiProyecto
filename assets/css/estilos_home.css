@@ -49,7 +49,8 @@ li{
 
 a{
    
-    color: red; 
+    color: white; 
+    text-decoration: none;
 }
 #banner{
     height: 500px;
@@ -82,6 +83,7 @@ h2{
 h3{
     width: 100px;
     display: flex;
+    color: white;
 }
 .capa{
     position: absolute;
@@ -92,6 +94,15 @@ h3{
     background: #1c1c1d;
     opacity: 0.5;
     /*mix-blend-mode: overlay;*/
+}
+.boton{
+     color: white; 
+     border-bottom: none;
+     padding: 20px 40px;
+     background-color:royalblue;
+     border-radius: 5px;
+     text-decoration: none;
+     text-shadow:none;
 }
  #productos{
     display: grid;
